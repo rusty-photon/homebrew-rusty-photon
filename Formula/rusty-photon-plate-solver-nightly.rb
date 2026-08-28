@@ -2,10 +2,10 @@
 class RustyPhotonPlateSolverNightly < Formula
   desc "rp-managed plate solver service: HTTP wrapper around the ASTAP CLI"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202608271623.g9f26742"
+  version "0.1.0+nightly.202608281721.g068d251"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-plate-solver-0.1.0+nightly.202608271623.g9f26742-aarch64-apple-darwin.tar.gz"
-  sha256 "ddac814cc2df3b03010cd6b3b73e476177aaa78d8f74d65aa5d111b4d97ec35d"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-plate-solver-0.1.0+nightly.202608281721.g068d251-aarch64-apple-darwin.tar.gz"
+  sha256 "3389a99bc14123fc908941ad14f85f2b488d22e6e287b5b1b31f4d9225759ba1"
 
   depends_on :macos
   depends_on arch: :arm64
