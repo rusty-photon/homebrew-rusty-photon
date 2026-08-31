@@ -2,10 +2,10 @@
 class RustyPhotonPpbaDriverNightly < Formula
   desc "ASCOM Alpaca driver for Pegasus Astro Pocket Powerbox Advance Gen2"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202608310130.g061e17c"
+  version "0.1.0+nightly.202608311132.gfe7111e"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-ppba-driver-0.1.0+nightly.202608310130.g061e17c-aarch64-apple-darwin.tar.gz"
-  sha256 "011c5a12bf6e212136c3ba8af03ac9d046cbbbc57d2a0245530022126d6ba397"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-ppba-driver-0.1.0+nightly.202608311132.gfe7111e-aarch64-apple-darwin.tar.gz"
+  sha256 "dc8f00e06b73f3e624506fb5c287c490119415deb182ddcb816d5a165f676ff5"
 
   depends_on :macos
   depends_on arch: :arm64
