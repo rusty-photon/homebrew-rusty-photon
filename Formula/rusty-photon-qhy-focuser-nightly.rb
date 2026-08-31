@@ -2,10 +2,10 @@
 class RustyPhotonQhyFocuserNightly < Formula
   desc "ASCOM Alpaca driver for QHY Q-Focuser (EAF)"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202608301026.g3623019"
+  version "0.1.0+nightly.202608310130.g061e17c"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-qhy-focuser-0.1.0+nightly.202608301026.g3623019-aarch64-apple-darwin.tar.gz"
-  sha256 "6cabdf10a3cff71b649d62c5c29f848b706b5fd0449dfcfeff8f66be3e27e55e"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-qhy-focuser-0.1.0+nightly.202608310130.g061e17c-aarch64-apple-darwin.tar.gz"
+  sha256 "db915b3db7fcf7a905c4ca587915a2c05c11c6dfd50b129ae33090448f4c508e"
 
   depends_on :macos
   depends_on arch: :arm64
