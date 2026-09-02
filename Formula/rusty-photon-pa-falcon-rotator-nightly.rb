@@ -2,10 +2,10 @@
 class RustyPhotonPaFalconRotatorNightly < Formula
   desc "ASCOM Alpaca driver for Pegasus Astro Falcon Rotator (firmware >= 1.3)"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202609010957.g54242af"
+  version "0.1.0+nightly.202609020929.gb743181"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-pa-falcon-rotator-0.1.0+nightly.202609010957.g54242af-aarch64-apple-darwin.tar.gz"
-  sha256 "ec9210190d32d8f4ab92a71b78a1ca39756ec714c37c2e8c9d5ca8d9dcc5a457"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-pa-falcon-rotator-0.1.0+nightly.202609020929.gb743181-aarch64-apple-darwin.tar.gz"
+  sha256 "6d80b0981aed606b2e7838a0d727685b4551413cd6a310fcb25eadc029282b3b"
 
   depends_on :macos
   depends_on arch: :arm64
