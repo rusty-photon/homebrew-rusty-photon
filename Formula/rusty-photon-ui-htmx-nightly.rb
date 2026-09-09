@@ -2,10 +2,10 @@
 class RustyPhotonUiHtmxNightly < Formula
   desc "Server-rendered web configuration UI (BFF) for rusty-photon — HTMX expression"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202609080933.gdd9580e"
+  version "0.1.0+nightly.202609090756.ge74a8b8"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-ui-htmx-0.1.0+nightly.202609080933.gdd9580e-aarch64-apple-darwin.tar.gz"
-  sha256 "067edeea4fdafc576754e48947e2ebe537867f8e1d319e41dc9c9a7b0a5e21ff"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-ui-htmx-0.1.0+nightly.202609090756.ge74a8b8-aarch64-apple-darwin.tar.gz"
+  sha256 "1264deb0586df043c74479f00a620d948b160d386264d9be45b6c633fcc8fac4"
 
   depends_on :macos
   depends_on arch: :arm64
