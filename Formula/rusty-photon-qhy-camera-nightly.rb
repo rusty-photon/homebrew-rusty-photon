@@ -2,10 +2,10 @@
 class RustyPhotonQhyCameraNightly < Formula
   desc "ASCOM Alpaca Camera (+ FilterWheel) driver for QHYCCD hardware"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202609220951.g7047cf4"
+  version "0.1.0+nightly.202609240009.g7fac581"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-qhy-camera-0.1.0+nightly.202609220951.g7047cf4-aarch64-apple-darwin.tar.gz"
-  sha256 "f9f849053992a1d9e6a64f8b87b79b5bbd6a24a7e8e28b5619b9968196755c30"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-qhy-camera-0.1.0+nightly.202609240009.g7fac581-aarch64-apple-darwin.tar.gz"
+  sha256 "f869dd79d98b67db48954a6e880e6f1d9a56003efd006c01a367a6c7785d6a4d"
 
   depends_on :macos
   depends_on arch: :arm64
