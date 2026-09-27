@@ -2,10 +2,10 @@
 class RustyPhotonSessionRunnerNightly < Formula
   desc "Generic imaging-workflow orchestrator: executes declarative JSON workflow documents against rp's tool catalog"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202609262026.g6eaa9b7"
+  version "0.1.0+nightly.202609271029.g44f7161"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-session-runner-0.1.0+nightly.202609262026.g6eaa9b7-aarch64-apple-darwin.tar.gz"
-  sha256 "c63110680bfdb1c245c009fe756549de3fcb7b9606a275a688b422c219d7e699"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-session-runner-0.1.0+nightly.202609271029.g44f7161-aarch64-apple-darwin.tar.gz"
+  sha256 "180064463bcb4d7c643ed5019a0afe43d9d1f4e48f760fa736e281a26d9365f6"
 
   depends_on :macos
   depends_on arch: :arm64
