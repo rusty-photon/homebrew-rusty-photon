@@ -2,10 +2,10 @@
 class RustyPhotonDsdFp2Nightly < Formula
   desc "ASCOM Alpaca CoverCalibrator driver for the Deep Sky Dad Flat Panel 2 (FP2)"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202609271029.g44f7161"
+  version "0.1.0+nightly.202609281137.g14b91cc"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-dsd-fp2-0.1.0+nightly.202609271029.g44f7161-aarch64-apple-darwin.tar.gz"
-  sha256 "636f1b1f9c6bd22540240a732640a2cf9bef67a8eb7163763b8bfca79ad223be"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-dsd-fp2-0.1.0+nightly.202609281137.g14b91cc-aarch64-apple-darwin.tar.gz"
+  sha256 "c6377b7b3dcb9cd9c8135577f2a083bbbeb0587bb0e041611c1bd4bce7db5923"
 
   depends_on :macos
   depends_on arch: :arm64
