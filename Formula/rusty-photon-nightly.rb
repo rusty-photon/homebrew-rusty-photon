@@ -2,12 +2,12 @@
 class RustyPhotonNightly < Formula
   desc "Rusty Photon astrophotography service family (every service)"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202609281137.g14b91cc"
+  version "0.1.0+nightly.202609291117.g8cf8cee"
   license any_of: ["MIT", "Apache-2.0"]
   # A formula must download something; the channel's checksum manifest is
   # the natural tiny asset for a meta-formula that only pulls dependencies.
   url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/SHA256SUMS.txt"
-  sha256 "a91c8f27a65688ddad895c050eed8db1b902bb97c990f7a801e3002f0faf32c4"
+  sha256 "817310592a71116fcff9631d284f74f1ebfdfad8aa24e70f42c47e282c2c20ff"
 
   depends_on :macos
   depends_on arch: :arm64
