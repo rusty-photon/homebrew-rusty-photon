@@ -2,10 +2,10 @@
 class RustyPhotonCalibratorFlatsNightly < Formula
   desc "Flat-field tool provider - trains and takes flats per optical train through rp, remembering the timing in a redb store"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202610072259.g935e547"
+  version "0.1.0+nightly.202610080326.g7bc4e72"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-calibrator-flats-0.1.0+nightly.202610072259.g935e547-aarch64-apple-darwin.tar.gz"
-  sha256 "37401cd8735558fedfe811af98b42d440e7cfecd682eb7dc3e2e7a2f4da3e6d5"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-calibrator-flats-0.1.0+nightly.202610080326.g7bc4e72-aarch64-apple-darwin.tar.gz"
+  sha256 "3651dacbca5b6576f730c6c50b0d6eb4920de583cc4d4adea7a23aa14156e279"
 
   depends_on :macos
   depends_on arch: :arm64
