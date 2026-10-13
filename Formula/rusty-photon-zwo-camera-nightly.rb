@@ -2,10 +2,10 @@
 class RustyPhotonZwoCameraNightly < Formula
   desc "ASCOM Alpaca Camera (+ EFW FilterWheel) driver for ZWO ASI hardware"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202610111121.gc3d979a"
+  version "0.1.0+nightly.202610131236.g570dd5a"
   license all_of: [{ any_of: ["MIT", "Apache-2.0"] }, "MIT"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-zwo-camera-0.1.0+nightly.202610111121.gc3d979a-aarch64-apple-darwin.tar.gz"
-  sha256 "1a4ef9d8ed8ad74fef14febc5ef68d0ddf36d555f2051950dc009f6abcccbb1d"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-zwo-camera-0.1.0+nightly.202610131236.g570dd5a-aarch64-apple-darwin.tar.gz"
+  sha256 "648b93388287b6b5afb6fb535cd30b76d07410487d21b9b43c2facba9322279b"
 
   depends_on :macos
   depends_on arch: :arm64
