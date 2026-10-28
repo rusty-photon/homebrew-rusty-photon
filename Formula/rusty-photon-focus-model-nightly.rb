@@ -2,10 +2,10 @@
 class RustyPhotonFocusModelNightly < Formula
   desc "Focus tool provider - sizes, predicts and runs V-curve focus sweeps per optical train through rp, remembering offsets, temperature and every run in a redb store"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202610270623.g6a07ebb"
+  version "0.1.0+nightly.202610280013.g63979d2"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-focus-model-0.1.0+nightly.202610270623.g6a07ebb-aarch64-apple-darwin.tar.gz"
-  sha256 "29ec1edb383f11e552a5f84f5f995fddd1de49ca02109515b127e5df361a6cf3"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-focus-model-0.1.0+nightly.202610280013.g63979d2-aarch64-apple-darwin.tar.gz"
+  sha256 "1df930ad5bbe440fba3307c1665f90dcefaa29a15ca8012da3d73031f39062b7"
 
   depends_on :macos
   depends_on arch: :arm64
