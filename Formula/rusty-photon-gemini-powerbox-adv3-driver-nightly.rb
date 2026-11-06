@@ -2,10 +2,10 @@
 class RustyPhotonGeminiPowerboxAdv3DriverNightly < Formula
   desc "ASCOM Alpaca driver for Gemini Astro Power & Data Hubs Advanced 3"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202611050546.g5425820"
+  version "0.1.0+nightly.202611061251.g0a1d37e"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-gemini-powerbox-adv3-driver-0.1.0+nightly.202611050546.g5425820-aarch64-apple-darwin.tar.gz"
-  sha256 "7c8a2dddfd6274f2e85ffd5a2f2a3b46e4138e51dd28906ded483968e3032172"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-gemini-powerbox-adv3-driver-0.1.0+nightly.202611061251.g0a1d37e-aarch64-apple-darwin.tar.gz"
+  sha256 "023f5f8d25e0a6b659e904f00edf8c8577a720dd511313db1e141ce2f8742c1f"
 
   depends_on :macos
   depends_on arch: :arm64
