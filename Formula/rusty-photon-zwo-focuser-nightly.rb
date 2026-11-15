@@ -2,10 +2,10 @@
 class RustyPhotonZwoFocuserNightly < Formula
   desc "ASCOM Alpaca Focuser driver for the ZWO EAF"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202611141203.g743778f"
+  version "0.1.0+nightly.202611151239.gb3080cc"
   license all_of: [{ any_of: ["MIT", "Apache-2.0"] }, "MIT"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-zwo-focuser-0.1.0+nightly.202611141203.g743778f-aarch64-apple-darwin.tar.gz"
-  sha256 "016a480cfb671cdb1713d8bf7e3db4ea906ccf92e038688451966ff5f48af095"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-zwo-focuser-0.1.0+nightly.202611151239.gb3080cc-aarch64-apple-darwin.tar.gz"
+  sha256 "62c69ec0b1bd693d1a50819c6451e102c0baf29e598bb49272b1a4d5439d43d9"
 
   depends_on :macos
   depends_on arch: :arm64
