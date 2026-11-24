@@ -2,10 +2,10 @@
 class RustyPhotonPolarAlignNightly < Formula
   desc "Plate-solving polar alignment orchestrator for equatorial mounts"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202611231551.g2d314e2"
+  version "0.1.0+nightly.202611241543.g1747a43"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-polar-align-0.1.0+nightly.202611231551.g2d314e2-aarch64-apple-darwin.tar.gz"
-  sha256 "f7f2aa7f6fe1246182f7719a2cd30f79186b4cab65d405b3380f1853a4961971"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-polar-align-0.1.0+nightly.202611241543.g1747a43-aarch64-apple-darwin.tar.gz"
+  sha256 "475b2f8212443a117b2ed462d19a57b4dd40a9f1af87bb3acad935474568a873"
 
   depends_on :macos
   depends_on arch: :arm64
