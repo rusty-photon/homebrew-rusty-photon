@@ -2,10 +2,10 @@
 class RustyPhotonRpNightly < Formula
   desc "Rusty Photon main application - equipment gateway, event bus, and safety enforcer"
   homepage "https://github.com/rusty-photon/rusty-photon"
-  version "0.1.0+nightly.202611241543.g1747a43"
+  version "0.1.0+nightly.202611252057.g2fbc644"
   license any_of: ["MIT", "Apache-2.0"]
-  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-rp-0.1.0+nightly.202611241543.g1747a43-aarch64-apple-darwin.tar.gz"
-  sha256 "846e3ff9febf0cfc636f358a3839fe8e26c7790806e947387e318221263d7d90"
+  url "https://github.com/rusty-photon/rusty-photon/releases/download/nightly/rusty-photon-rp-0.1.0+nightly.202611252057.g2fbc644-aarch64-apple-darwin.tar.gz"
+  sha256 "3b0c1689e3fadb3bdd6e67a55d7e28d7d7e946df656930ac317ed8970d6c15b2"
 
   depends_on :macos
   depends_on arch: :arm64
